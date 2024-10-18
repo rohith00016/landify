@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.gradient-box {
+  height: 150vh;
+  background: linear-gradient(
+    to bottom right,
+    #5736db 0%,
+    #03030d 40%,
+    #03030d 80%,
+    #5736db 100%
+  );
+}
