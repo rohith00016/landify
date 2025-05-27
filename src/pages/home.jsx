@@ -21,7 +21,7 @@ const home = () => {
                 But the book
               </button>
               <button className="font-semibold bg-[#1B1B25] px-4 py-2 md:px-6 rounded-md text-sm md:text-base">
-                Free preview
+                Paid version
               </button>
             </div>
             <Avatars />
